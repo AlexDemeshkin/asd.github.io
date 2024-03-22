@@ -1,0 +1,244 @@
+html{
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1000px;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+body
+{
+    width: 1455px;
+    height: 1000px;
+    flex-shrink: 0;    
+    background: #FCCA80; 
+}
+
+
+header{
+    border-style: none;
+    width: 1400px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-shrink: 0;    
+    background: #7CAEE1;
+}
+
+
+.container{
+    max-width: 1400px;
+    max-height: 150px;
+    align-items:center;
+}
+
+
+.header__inner{
+    max-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: #151618;
+
+}   
+
+
+.logo{
+    width: 110px;
+    height: 110px;
+    margin: 20px;
+    border-style: none;
+    
+}
+.user-actions{
+    width: 80px;
+    height: 80px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.item{
+    margin-right: 20px;
+
+}
+
+.main{
+    border-style: none;
+    width: 1300px;
+    height: 400px;
+    flex-shrink: 0;  
+    margin-top: 100px;
+    z-index: 1;  
+    position: relativea;
+
+}
+
+
+.container1{
+    border-style: none;
+    max-width: 1400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.firstpart{
+    border-style: none;
+    width: 1400px;
+    max-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: #151618;
+}
+
+
+#picture1{
+    border: none;
+    border-style: none;
+    width: 550px;
+    height: 400px;
+}
+
+
+.information1{
+    border-style: none;
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.information1__list{
+    border-style: none;
+}
+
+.information1__item{
+    border: none;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    font-family: JejuMyeongjo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+.end{
+    border-style: none;
+    width: 1440px;
+    height: 300px;
+    flex-shrink: 0;    
+}
+
+.contauner3{
+    border-style: none;
+    max-width: 1440px;
+    margin: 0 auto;
+    max-height: 300px;
+    align-items:center;
+    font-family: JejuMyeongjo;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    margin-top: 50px;
+
+}
+
+.end__inner{
+    border-style: none;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: #020202;
+    
+}
+
+
+.end__icon{
+    border-style: none;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:  15px;
+    margin-left: 40px;
+    color: #4E36E1;
+    margin-top: 100px;
+}
+
+
+.end__menu__list{
+    border-style: none;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: #4E36E1;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+.end__contact__link{
+    border-style: none;
+    width: 650px;
+    display: flex;
+    align-items: end;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+.phone{
+    border-style: none;
+    margin-left: 100px; 
+}
+
+
+@media (wigth:768px){
+    .menu__item{
+        font-family: JejuMyeongjo;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .information1__item{
+        border: none;
+        text-align: center;
+        font-family: JejuMyeongjo;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
